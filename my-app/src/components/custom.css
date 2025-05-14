@@ -1,0 +1,100 @@
+.navbar{
+  background-color: white;
+}
+.navbar_link{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  font-weight: 550;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 15px; 
+}
+.navbar_link:hover{
+  color: #4573d7;
+}
+
+.h2_container {
+  background-color: #f4f4f9; /* Colore di sfondo chiaro */
+  border: 2px solid #333;
+  border-radius: 8px; /* Angoli arrotondati */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+  text-align: center; /* Centra il contenuto del container */
+
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 800px;
+}
+.h2_title {
+  font-size: 2.5rem; /* Dimensione del font dell'h2 */
+  padding: 10px;
+  display: inline;
+  border-radius: 5px;
+  color: #4573d7; /* Colore del testo */
+  font-weight: bold; /* Grassetto per il titolo */
+  margin: 0; /* Rimuove il margine predefinito */
+}
+
+.p_container {
+  margin: 20px auto; /* Centra il container orizzontalmente e aggiunge un margine verticale */
+  padding: 20px; /* Padding interno per distanziare il contenuto dai bordi del container */
+  background-color: #f4f4f9; /* Colore di sfondo chiaro per il container */
+  border-radius: 8px; /* Angoli arrotondati per un aspetto più morbido */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leggera ombra per dare profondità */
+
+  font-size: 1rem; /* Dimensione del testo */
+  line-height: 1.6; /* Altezza della linea per migliorare la leggibilità */
+  color: #555; /* Colore del testo (grigio scuro) */
+  font-family: 'Arial', sans-serif; /* Tipo di font */
+  margin: 0; /* Rimuove il margine predefinito per il paragrafo */
+  padding: 10px; /* Padding interno al paragrafo */
+  background-color: #ffffff; /* Colore di sfondo bianco per il paragrafo */
+  border-left: 4px solid #007bff; /* Barra laterale blu a sinistra del paragrafo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra leggera per un effetto di profondità */
+  text-align: center;
+}
+.p {
+  font-family:Trebuchet MS, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #000000;
+  margin: 0;
+}
+
+.button {
+  padding: 12px 24px;
+  margin: 20px 0;
+  background-color: #2142d4; /* Colore di sfondo */
+  color: white; /* Colore del testo */
+  border-radius: 25px; /* Bordi curvi */
+  font-size: 16px; /* Dimensione del testo */
+  cursor: pointer; /* Cambia il cursore quando il mouse è sopra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombreggiatura */
+  transition: all 0.3s ease; /* Transizione morbida per gli effetti */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+button:hover {
+  background-color: #45a049; /* Colore di sfondo quando il mouse è sopra */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombreggiatura più forte */
+}
+
+.footer {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 3px;
+}
+.footer_right{
+  color: #000000;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.footer_right:hover {
+  color: #4573d7;
+}

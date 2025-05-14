@@ -1,0 +1,134 @@
+body {
+  background-color: #b0d1fc; /* Colore di sfondo grigio chiaro */
+  /*background-image: url('sfondo.jpg'); /* Immagine di sfondo */
+  /*background-size: cover; /* Adatta l'immagine per coprire tutta la pagina */
+  /*background-position: center; /* Centra l'immagine di sfondo */
+  /*background-attachment: fixed; /* Fissa l'immagine in modo che non si sposti durante lo scrolling */
+  /*margin: 0; /* Rimuove il margine predefinito */
+  /*font-family: Arial, sans-serif; /* Imposta il font per la pagina */
+}
+
+.navbar a {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 550;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.navbar a:hover {
+  color: #4573d7; /* colore quando il mouse è sopra */
+}
+
+.main {
+  /*background-color: #f9f9f9;  /* Colore di sfondo chiaro per il contenuto */
+  padding: 20px;              /* Spazio interno per evitare che il contenuto sia troppo vicino ai bordi */
+  margin: 40px auto;          /* Margine per allineare il contenuto e separarlo dai bordi della finestra */
+  margin-top: 70px;
+  /*max-width: 1200px;          /* Limita la larghezza massima del contenuto */
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera attorno al contenuto */
+  /*border-radius: 8px;         /* Angoli arrotondati per un look più morbido */
+  font-family: 'Arial', sans-serif; /* Font di base per il contenuto */
+  color: #333;                /* Colore del testo */
+}
+  
+.h2_container {
+  display: inline-block; /* Imposta il container per adattarsi alla larghezza del contenuto */
+  background-color: #f4f4f9; /* Colore di sfondo chiaro */
+  border-radius: 8px; /* Angoli arrotondati */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+  text-align: center; /* Centra il contenuto del container */
+
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.h2_title {
+  font-size: 2rem; /* Dimensione del font dell'h2 */
+  border: 2px solid #333;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #4573d7; /* Colore del testo */
+  font-weight: bold; /* Grassetto per il titolo */
+  margin: 0; /* Rimuove il margine predefinito */
+}
+
+.p_container {
+  display: inline-block; /* Imposta il container per adattarsi alla larghezza del contenuto */
+  margin-bottom: 20px auto; /* Centra il container orizzontalmente e aggiunge un margine verticale */
+  padding: 20px; /* Padding interno per distanziare il contenuto dai bordi del container */
+  background-color: #f4f4f9; /* Colore di sfondo chiaro per il container */
+  border-radius: 8px; /* Angoli arrotondati per un aspetto più morbido */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leggera ombra per dare profondità */
+
+  font-size: 1rem; /* Dimensione del testo */
+  line-height: 1.6; /* Altezza della linea per migliorare la leggibilità */
+  color: #555; /* Colore del testo (grigio scuro) */
+  font-family: 'Arial', sans-serif; /* Tipo di font */
+  margin: 0; /* Rimuove il margine predefinito per il paragrafo */
+  padding: 10px; /* Padding interno al paragrafo */
+  background-color: #ffffff; /* Colore di sfondo bianco per il paragrafo */
+  border-left: 4px solid #007bff; /* Barra laterale blu a sinistra del paragrafo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra leggera per un effetto di profondità */
+  text-align: center;
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+p {
+  font-family:Trebuchet MS, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #000000;
+}
+ 
+.button {
+  padding: 12px 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #2142d4; /* Colore di sfondo */
+  color: white; /* Colore del testo */
+  border-radius: 25px; /* Bordi curvi */
+  font-size: 16px; /* Dimensione del testo */
+  cursor: pointer; /* Cambia il cursore quando il mouse è sopra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombreggiatura */
+  transition: all 0.3s ease; /* Transizione morbida per gli effetti */
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column; /* Organizza i figli in colonna */
+  justify-content: center; /* Centra verticalmente i figli */
+  align-items: center;
+}
+
+button:hover {
+  background-color: #45a049; /* Colore di sfondo quando il mouse è sopra */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombreggiatura più forte */
+}
+
+.footer{
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_right a{
+  position:relative;
+  color:#000000;
+}
+.footer_right a:hover {
+  color: #4573d7; /* colore quando il mouse è sopra */
+}

@@ -1,0 +1,28 @@
+{
+  "name": "gruppi-lab-js-ninjas",
+  "version": "1.0.0",
+  "description": "- s338059 BETTELLI ALEX\r - s338884 ILACQUA GIOVANNI MARIA\r - s338520 BENEVENTO MATTIA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polito-aw1-2025-exams/gruppi-lab-js-ninjas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polito-aw1-2025-exams/gruppi-lab-js-ninjas/issues"
+  },
+  "homepage": "https://github.com/polito-aw1-2025-exams/gruppi-lab-js-ninjas#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.12.1",
+    "dayjs": "^1.11.13",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.1.7"
+  }
+}
