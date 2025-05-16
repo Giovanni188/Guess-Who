@@ -30,18 +30,28 @@
   padding: 10px;
   display: inline;
   border-radius: 5px;
-  color: #4573d7; /* Colore del testo */
+  color:#4573d7; /* Colore del testo */
+  font-weight: bold; /* Grassetto per il titolo */
+  margin: 0; /* Rimuove il margine predefinito */
+}
+[data-bs-theme="dark"] .h2_title {
+  font-size: 2.5rem; /* Dimensione del font dell'h2 */
+  padding: 10px;
+  display: inline;
+  border-radius: 5px;
+  color: #8fb9ff; /* Colore del testo */
   font-weight: bold; /* Grassetto per il titolo */
   margin: 0; /* Rimuove il margine predefinito */
 }
 
+
 .p_container {
   margin: 20px auto; /* Centra il container orizzontalmente e aggiunge un margine verticale */
-  padding: 20px; /* Padding interno per distanziare il contenuto dai bordi del container */
+   padding: 20px; /* Padding interno per distanziare il contenuto dai bordi del container */
   background-color: #f4f4f9; /* Colore di sfondo chiaro per il container */
   border-radius: 8px; /* Angoli arrotondati per un aspetto più morbido */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leggera ombra per dare profondità */
-
+  
   font-size: 1rem; /* Dimensione del testo */
   line-height: 1.6; /* Altezza della linea per migliorare la leggibilità */
   color: #555; /* Colore del testo (grigio scuro) */
@@ -50,6 +60,24 @@
   padding: 10px; /* Padding interno al paragrafo */
   background-color: #ffffff; /* Colore di sfondo bianco per il paragrafo */
   border-left: 4px solid #007bff; /* Barra laterale blu a sinistra del paragrafo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra leggera per un effetto di profondità */
+  text-align: center;
+}
+[data-bs-theme="dark"] .p_container {
+  margin: 20px auto; /* Centra il container orizzontalmente e aggiunge un margine verticale */
+   padding: 20px; /* Padding interno per distanziare il contenuto dai bordi del container */
+  background-color: #f4f4f9; /* Colore di sfondo chiaro per il container */
+  border-radius: 8px; /* Angoli arrotondati per un aspetto più morbido */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leggera ombra per dare profondità */
+  
+  font-size: 1rem; /* Dimensione del testo */
+  line-height: 1.6; /* Altezza della linea per migliorare la leggibilità */
+  color: #555; /* Colore del testo (grigio scuro) */
+  font-family: 'Arial', sans-serif; /* Tipo di font */
+  margin: 0; /* Rimuove il margine predefinito per il paragrafo */
+  padding: 10px; /* Padding interno al paragrafo */
+  background-color: #ffffff; /* Colore di sfondo bianco per il paragrafo */
+  border-left: 4px solid #66b2ff; /* Barra laterale blu a sinistra del paragrafo */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra leggera per un effetto di profondità */
   text-align: center;
 }
@@ -62,7 +90,7 @@
   margin: 0;
 }
 
-.button {
+.Startbutton {
   padding: 12px 24px;
   margin: 20px 0;
   background-color: #2142d4; /* Colore di sfondo */
@@ -78,9 +106,125 @@
   justify-content: center;
   text-align: center;
 }
-button:hover {
+.Startbutton:hover {
   background-color: #45a049; /* Colore di sfondo quando il mouse è sopra */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombreggiatura più forte */
+}
+[data-bs-theme="dark"] .Startbutton {
+  padding: 12px 24px;
+  margin: 20px 0;
+  background-color: #708eff; /* Colore di sfondo */
+  color: black; /* Colore del testo */
+  border-radius: 25px; /* Bordi curvi */
+  font-size: 16px; /* Dimensione del testo */
+  cursor: pointer; /* Cambia il cursore quando il mouse è sopra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombreggiatura */
+  transition: all 0.3s ease; /* Transizione morbida per gli effetti */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+[data-bs-theme="dark"] .Startbutton:hover {
+  background-color: #77d68c; /* Colore di sfondo quando il mouse è sopra */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombreggiatura più forte */
+}
+
+.diffButton {
+  margin: 20px 0;
+  background-color: #2142d4; /* Colore di sfondo */
+  color: white; /* Colore del testo */
+  border-radius: 25px; /* Bordi curvi */
+  font-size: 16px; /* Dimensione del testo */
+  cursor: pointer; /* Cambia il cursore quando il mouse è sopra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombreggiatura */
+  transition: all 0.3s ease; /* Transizione morbida per gli effetti */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  width: fit-content;         /* Si adatta al contenuto */
+  padding: 10px 20px;         /* Spaziatura interna */
+}
+.diffButton:hover {
+  background-color: #45a049; /* Colore di sfondo quando il mouse è sopra */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombreggiatura più forte */
+}
+[data-bs-theme="dark"] .diffButton {
+  margin: 20px 0;
+  background-color: #708eff; /* Colore di sfondo */
+  color: black; /* Colore del testo */
+  border-radius: 25px; /* Bordi curvi */
+  font-size: 16px; /* Dimensione del testo */
+  cursor: pointer; /* Cambia il cursore quando il mouse è sopra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombreggiatura */
+  transition: all 0.3s ease; /* Transizione morbida per gli effetti */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  width: fit-content;         /* Si adatta al contenuto */
+  padding: 10px 20px;         /* Spaziatura interna */
+}
+[data-bs-theme="dark"] .diffButton:hover {
+  background-color: #77d68c; /* Colore di sfondo quando il mouse è sopra */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombreggiatura più forte */
+}
+
+.pDiff_container {
+  margin: 20px auto; /* Centra il container orizzontalmente e aggiunge un margine verticale */
+  
+  background-color: #f4f4f9; /* Colore di sfondo chiaro per il container */
+  border-radius: 8px; /* Angoli arrotondati per un aspetto più morbido */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leggera ombra per dare profondità */
+  
+  font-size: 1rem; /* Dimensione del testo */
+  line-height: 1.6; /* Altezza della linea per migliorare la leggibilità */
+  color: #555; /* Colore del testo (grigio scuro) */
+  font-family: 'Arial', sans-serif; /* Tipo di font */
+  margin: 0; /* Rimuove il margine predefinito per il paragrafo */
+  padding: 10px; /* Padding interno al paragrafo */
+  background-color: #ffffff; /* Colore di sfondo bianco per il paragrafo */
+  border-left: 4px solid #007bff; /* Barra laterale blu a sinistra del paragrafo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra leggera per un effetto di profondità */
+  text-align: center;
+
+  width: fit-content;         /* Si adatta al contenuto */
+  padding: 20px; /* Padding interno per distanziare il contenuto dai bordi del container */
+}
+[data-bs-theme="dark"].pDiff_container {
+  margin: 20px auto; /* Centra il container orizzontalmente e aggiunge un margine verticale */
+  
+  background-color: #f4f4f9; /* Colore di sfondo chiaro per il container */
+  border-radius: 8px; /* Angoli arrotondati per un aspetto più morbido */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leggera ombra per dare profondità */
+  
+  font-size: 1rem; /* Dimensione del testo */
+  line-height: 1.6; /* Altezza della linea per migliorare la leggibilità */
+  color: #555; /* Colore del testo (grigio scuro) */
+  font-family: 'Arial', sans-serif; /* Tipo di font */
+  margin: 0; /* Rimuove il margine predefinito per il paragrafo */
+  padding: 10px; /* Padding interno al paragrafo */
+  background-color: #ffffff; /* Colore di sfondo bianco per il paragrafo */
+  border-left: 4px solid #66b2ff; /* Barra laterale blu a sinistra del paragrafo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra leggera per un effetto di profondità */
+  text-align: center;
+
+  width: fit-content;         /* Si adatta al contenuto */
+  padding: 20px; /* Padding interno per distanziare il contenuto dai bordi del container */
+}
+.pDiff {
+  font-family:Trebuchet MS, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #000000;
+  margin: 0;
 }
 
 .footer {
@@ -97,4 +241,12 @@ button:hover {
 }
 .footer_right:hover {
   color: #4573d7;
+}
+[data-bs-theme="dark"] .footer_right{
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+[data-bs-theme="dark"] .footer_right:hover {
+  color: #7da7ff;
 }
